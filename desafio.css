@@ -1,29 +1,51 @@
-h1{
-    color: white;
-    background-color: black;
-    font-size: 20px;
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500;600;700;800&family=Roboto+Slab&family=Roboto:wght@100&display=swap');
+body{
+  background-color: white;
 }
 
-form{
-    padding-top: 10px;
-    display: flex;
-    gap: 580px;
-    height: 15;
-
-}
-input{
-
-    height: 30px;
-    border-radius: 5px;
-    left:100px;
-}
-div.topo{
-    background-color: black;
+h1 {
+  color: rgb(250, 245, 245);
+ 
+  font-size: 20px;
 }
 
-#btn{
-    display:block;
-   position: relative;
-    left: 60.3rem;
+form {
+  padding-top: 10px;
+  display: flex;
+  gap: 580px;
+  height: 15;
 }
+input {
+  height: 30px;
+  border-radius: 5px;
+  left: 100px;
+}
+div.topo {
+  background-color: rgb(123, 117, 221);
+}
+
+#btn {
+
+  display: block;
+  position: relative;
+  left: 60.3rem;
+}
+
+.loader {
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid blue;
+  border-bottom: 16px solid blue;
+  width: 120px;
+  height: 120px;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
